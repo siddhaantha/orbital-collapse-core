@@ -25,7 +25,10 @@ def check_dispatch():
 
 
 def check_ground():
-    return dashboard.display_status()
+    try:
+        return dashboard.display_status()
+    except Exception:
+        return "[GROUND] ERROR"
 
 
 def run_all_checks():
