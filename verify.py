@@ -8,7 +8,7 @@ from launch_sequence import dispatcher
 
 
 try:
-    from ground_control import dashboard
+    from ground_control.status import system_health
 except ImportError:
     dashboard = None
 
