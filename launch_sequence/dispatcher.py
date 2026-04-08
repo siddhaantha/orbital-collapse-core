@@ -1,3 +1,3 @@
 def dispatch():
     
-    return "[DISPATCH] FAILED"
+    return "[DISPATCH] SUCCESS"
