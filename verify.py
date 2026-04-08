@@ -26,7 +26,7 @@ def check_system():
         status_ok = False
 
     try:
-        from telemetry import parse_signal
+        from telemetry.parser import parse_signal
         result = parse_signal("SIGNAL:42")
         if "42" in result and "STABLE" in result:
             print("✅ Telemetry: OK")
