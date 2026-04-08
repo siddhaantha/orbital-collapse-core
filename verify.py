@@ -4,7 +4,7 @@ Version Control Wars - System Verify Script
 """
 
 import sys
-from launch_sequence import dispatcher
+from launch_sequence.dispatcher import dispatch
 
 
 try:
