@@ -1,2 +1,2 @@
 def parse_signal():
-    return "[TELEMETRY] Data stream nominal"
+    return "42 STABLE"
