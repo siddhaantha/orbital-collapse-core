@@ -1,2 +1,2 @@
 def authenticate():
-    return "[AUTH] Auth OK"
+    return "[AUTH] Auth SECURE"
