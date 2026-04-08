@@ -1,2 +1,2 @@
-def parse_signal():
-    return "42 STABLE"
+def parse_signal(signal):
+    return f"[TELEMETRY] {signal.split(':')[1]} STABLE"
