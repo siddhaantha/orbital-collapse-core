@@ -1,3 +1,2 @@
-def dispatch():
-    
-    return "[DISPATCH] SUCCESS"
+def launch_sequence():
+    return dispatch()
